@@ -1,5 +1,6 @@
 <?php
-var logs = array(
+  header('Access-Control-Allow-Origin: *');
+var $logs = array(
 array (
   "user" => "ayb",
   "password" => "azerty",
@@ -29,4 +30,6 @@ array (
   "lastName" => "lastname",
 ));
 
+echo "Name : ".$logs->user."\n";
+echo "Email : ".$logs->password."\n";
  ?>

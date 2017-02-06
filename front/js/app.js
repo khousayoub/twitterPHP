@@ -10,7 +10,7 @@ app.config(function($stateProvider) {
   var loginState = {
     name: 'login',
     url: '/login',
-    templateUrl: 'templates/enter.html'
+    templateUrl: 'templates/sign.html'
   }
   $stateProvider.state(feedState);
   $stateProvider.state(loginState);
@@ -25,5 +25,18 @@ app.config(function($stateProvider) {
   app.controller('FeedController', function ($scope, $http) {
     $http.get('http://localhost:8888/api/feed.php').then(function(s) {
     $scope.tweets = s.data;
+    });
   });
-});
+
+  app.controller("form", ['$scope', '$http', function($scope, $http) {
+        $scope.url = 'http://localhost:8888/api/signin.php';
+        $scope.submit = function() {
+                $http.post($scope.url, {"user": $scope.user, "pwd": $scope.pwd}).
+                    success(function(data, status) {
+                            console.log(data);
+                            $scope.status = status;
+                            $scope.data = data;
+                            $scope.result = data;
+                        })
+        }
+    }]);
