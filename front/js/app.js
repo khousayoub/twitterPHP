@@ -23,7 +23,7 @@ app.config(function($stateProvider) {
   });*/
   // Controller via php JSON
   app.controller('FeedController', function ($scope, $http) {
-    $http.get('http://localhost:8888/feed.php').then(function(s) {
+    $http.get('http://localhost:8888/api/feed.php').then(function(s) {
     $scope.tweets = s.data;
   });
 });
