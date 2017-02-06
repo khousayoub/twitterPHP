@@ -1,0 +1,59 @@
+[{
+				"user": "Ted",
+		    "pic": "ted.jpg",
+				"tweet": "Hey @Warren, I need 100 bucks...feeling lucky?",
+				"date": "30/01/2017",
+				"like": "56"
+			}, {
+
+				"user": "Deadpool",
+		    "pic": "dead.jpg",
+				"tweet": "Next week -> fight against @Batman and the @Hulk stay tuned!",
+				"date": "30/01/2017",
+				"like": "12"
+		   }, {
+
+
+				"user": "Chewbacca",
+		    "pic": "cbk.jpg",
+				"tweet": "WYayayayyayaYAYayyYAya",
+				"date":  "30/01/2017",
+				"like": "457"
+		   }, {
+
+
+				"user": "Joker",
+		    "pic": "joker.jpg",
+				"tweet": "Yo I was at @Donald Trump inauguration... WHY SO SERIOUS?",
+				"date":  "30/01/2017",
+				"like": "32"
+		   }, {
+
+				"user": "McGyver",
+		    "pic": "mcg.jpg",
+				"tweet": " je vends sur le boncoin une scie à métaux, un tournevis et un réacteur nucléaire @KimJungII ?",
+				"date":  "30/01/2017",
+				"like": "87"
+		   }, {
+
+
+				"user": "The riddle",
+		    "pic": "riddle.jpg",
+				"tweet": "I am the Goddam Batman! Naaaahhhh",
+				"date":  "30/01/2017",
+				"like": "2"
+		   }, {
+
+		   	"user": "Vader",
+		    "pic": "vader.jpg",
+				"tweet": "I am your mother",
+				"date":  "30/01/2017",
+				"like": "65"
+		   }, {
+
+		    "user": "Conan",
+		    "pic": "conan.jpg",
+				"tweet": "Every day I am hustlin hustlin hustlin",
+				"date":  "30/01/2017",
+				"like": "4"
+   }]

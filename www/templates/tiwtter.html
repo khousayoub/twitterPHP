@@ -1,0 +1,30 @@
+
+      <div class="container-fluid well"  >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="col-lg-12 leftside">
+                <div class="pic">
+                  <img src="images/buffet.jpg" width="54px" height="54px">
+                </div>
+                <div class="upside">
+                </div>
+                <div class="downside">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9" ng-controller = "FeedController">
+              <div class="col-lg-12 jumbotron" ng-repeat="tweet in tweets">
+                <div class="col-lg-3">
+                  <img class="img-thumbnail" src="images/{{tweet.pic}}" height="150px" width="150px" />
+                </div>
+                <div class="col-lg-9">
+                  <p>User : {{tweet.user}} - <i>{{tweet.date}}</i></p>
+                  <p> Tweet : {{tweet.tweet}}</p>
+                  <p> Numbre of Likes : {{tweet.like}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
